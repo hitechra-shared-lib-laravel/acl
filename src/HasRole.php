@@ -21,6 +21,6 @@ trait HasRole
 
     public function is_a($role_name)
     {
-        return $this->roles->where('role', $role_name)->exists();
+        return $this->roles->contains('name', $role_name);
     }
 }
