@@ -44,3 +44,8 @@ Use `HitechraSharedLibLaravel\Acl\HasRole` Trait to User model
 ```
     $user->is_a('admin');
 ```
+
+### Create new role
+```
+    createRole('role_name', 'Role Title');
+```
