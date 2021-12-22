@@ -1,0 +1,28 @@
+{
+    "name": "hitechra-shared-lib-laravel/acl",
+    "description": "Laravel Access Control List",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "HitechraSharedLibLaravel\\Acl\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Adeardo Dora Harnanda",
+            "email": "adetxt151@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "laravel/framework": "^8.0"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "HitechraSharedLibLaravel\\Acl\\ServiceProvider"
+            ]
+        }
+    }
+}
