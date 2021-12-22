@@ -6,7 +6,8 @@
     "autoload": {
         "psr-4": {
             "HitechraSharedLibLaravel\\Acl\\": "src/"
-        }
+        },
+        "files": ["src/helpers.php"]
     },
     "authors": [
         {
