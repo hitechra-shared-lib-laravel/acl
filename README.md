@@ -1,4 +1,8 @@
-# Hitechra Laravel ACL
+# Laravel ACL
+
+Maintained by Hitechra Engineer Team
+
+Access Control List made easy
 
 ## Installation
 
