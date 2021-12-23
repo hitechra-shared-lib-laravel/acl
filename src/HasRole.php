@@ -14,7 +14,7 @@ trait HasRole
         return $this->roles()->syncWithoutDetaching(config('acl.model.role')::where('name', $role_name)->firstOrFail());
     }
 
-    public function removeRole($role_name)
+    public function revokeRole($role_name)
     {
         return $this->roles()->detach($role_name);
     }

@@ -30,9 +30,9 @@ Use `HitechraSharedLibLaravel\Acl\HasRole` Trait to User model
     $user->assignRole('admin');
 ```
 
-### Remove Role
+### Revoke Role
 ```
-    $user->removeRole('admin');
+    $user->revokeRole('admin');
 ```
 
 ### Get Roles Collection
